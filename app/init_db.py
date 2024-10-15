@@ -1,0 +1,6 @@
+from app import db
+
+# Initialize the database
+db.create_all()
+
+print("Database Initialized.")
