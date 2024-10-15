@@ -54,6 +54,23 @@ While this project serves as a solid foundation for a task management applicatio
 Clone this repo
 ```bash
 git clone https://github.com/AdnanRahmanpoor/flask_todo.git
+
+cd flask_todo
+
+# Install Requirements
+
+pip install -r requirements.txt 
+
+# run flask shell to init a database
+
+flask shell
+
+from app import db
+
+db.create_all()
+
+# then run the run.py using python to have a localhost version of the app running
+
 ```
 
 ## Conclusion
